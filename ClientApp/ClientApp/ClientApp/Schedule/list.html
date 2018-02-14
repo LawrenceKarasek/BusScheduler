@@ -1,0 +1,19 @@
+﻿<div class="table-responsive">
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>Stop 1</th>
+        </tr>
+        <tr ng-repeat="item in combinedArrivals1">
+            <td><span>Route </span> {{ item.key }} <span> in </span>{{ item.value }}</td>
+        </tr>
+    </table>
+
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>Stop 2</th>
+        </tr>
+        <tr ng-repeat="item in combinedArrivals2">
+            <td><span>Route </span> {{ item.key }} <span> in </span>{{ item.value }}</td>
+        </tr>
+    </table>
+</div>
